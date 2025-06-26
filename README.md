@@ -10,7 +10,7 @@ Use ```<!DOCTYPE html>```, ```<html>```, ```<head>```, and ```<body>``` tags to 
 Set the ```<title>``` as "Admission Enquiry Form".
 
 #### 2. Add a Page Heading:
-Use <h1> to title the page as “Admission Enquiry”.
+Use ```<h1>``` to title the page as “Admission Enquiry”.
 
 #### 3. Create the Form Layout:
 Use the ```<form>``` tag to wrap all input elements. Set method="post" for structure.
