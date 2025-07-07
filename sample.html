@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry Form</title>
+</head>
+<body>
+    <header><h1 align="center">Admission Enquiry Form</h1></header>
+        <form method="post">
+            <label for="fullname" type="text"><b>Full Name: <b></label>
+            <input type="text" name="fullname" required>
+            <br>
+            <br>
+            <label for="emailaddress" type="text"><b>Email Address:<b></label>
+            <input type="email" name="emailaddress" required>
+            <br>
+            <br>
+            <label for="phonenumber" type="text"><b>Phone Number:<b></label>
+            <input type="tel" name="phonenumber" required>
+            <br>
+            <br>
+            <label type="radio" for="text"><b>Gender</b></label>
+            <input type="radio" name="male">Male
+            <input type="radio" name="female">Female
+            <input type="radio" name="other">Other
+            <br>
+            <br>
+            <label for="dateofbirth" type="text"><b>Date of Birth:<b></label>
+            <input type="date" name="dateofbirth" required>
+            <br>
+            <br>
+            <label for="departments" type="text"><b>Department:<b></label>
+            <select name="departments" required>
+                <option>Select course</option>
+                <option>Computer Science and Engineering</option>
+                <option>Cyber Security</option>
+                <option>Electronics and Communication Engineering</option>
+                <option>Electrical and Electronics Engineering</option>
+                <option>Artificial Intelligience and Data Science</option>
+                <option>Artificial Intelligience and Machine Learning</option>
+                <option>Internet of Things</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+                <option>Medical Electronics</option>
+                <option>Bio Medical Engineering</option>
+            </select>
+            <br>
+            <br>
+            <label for="academicqualification" type="text"><b>Academic Qualification:<b></label>
+            <textarea type="text" name="academicqualification" rows="2" cols="30" required></textarea>
+            <br>
+            <br>
+            <label for="address" type="text"><b>Address:<b></label>
+            <textarea type="text" name="address" rows="2" cols="30" required></textarea>
+            <br>
+            <br>
+            <label for="preferredmodeofcontact" type="text">Preferred mode of contact</label>
+            <br>
+            <input type="checkbox" name="preferredmodeofcontact">Email
+            <input type="checkbox" name="preferredmodeofcontact">Phone
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+</body>
+</html>
